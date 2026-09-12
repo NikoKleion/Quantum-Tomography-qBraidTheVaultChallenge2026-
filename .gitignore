@@ -1,0 +1,29 @@
+# API key
+qbraid_key.txt
+.qbraid_key
+*key*.txt
+*.key
+.env
+QBRAID_API_KEY*
+
+# official qBraid client, fetched from github.com/qBraid/vault-challenge
+vault_client.py
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# rebuilt from runlog.jsonl by analysis/parse_ledger.py
+ledger.pkl
+
+# scratch output
+*_result.txt
+board_*.txt
+recon*.txt
+gd*.txt
+mps*.txt
+*.output

@@ -1,0 +1,12 @@
+[key found in qbraid_key.txt]
+V3: n=12 current=0.307 p_left=6 a_left=16
+  probes spent: 6
+  fitting staircase (torch autodiff)...
+  fit residual=0.0316
+  candidates: [(14, 0.72), (15, 0.714), (16, 0.708), (17, 0.706), (18, 0.708), (19, 0.893), (20, 0.969), (21, 0.973), (22, 1.0)]
+  calib d=22: R=0.106 score=0.091 c=33.0
+  d=20: predR=0.969 gotR=0.109 score=0.094 best=0.094
+  d=21: predR=0.973 gotR=0.108 score=0.094 best=0.094
+  d=19: predR=0.893 gotR=0.098 score=0.086 best=0.094
+  d=14: predR=0.720 gotR=0.063 score=0.057 best=0.094
+V3 DONE: 0.307 -> 0.094 (R=0.109, d=20) | a_left 11

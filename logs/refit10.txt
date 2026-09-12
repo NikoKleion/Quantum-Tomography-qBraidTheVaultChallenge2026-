@@ -1,0 +1,10 @@
+V10: n=4 c=20 | 12 exact rows + 2 probe bases; free params=30
+LOO row error: max=0.0883 mean=0.0360
+best loss=2.01e-03; ensemble=40 solutions, 1 distinct; pairwise fid range: 1.000-1.0  (115s)
+current: bestR=0.9446 score=0.8996
+top candidates (robust=min over ensemble):
+  s0_L2_d6         d= 6 score[min/mean/max]=0.9262/0.9262/0.9262
+  s0_L2_d5         d= 5 score[min/mean/max]=0.9251/0.9251/0.9251
+  s0_exact         d=11 score[min/mean/max]=0.8791/0.8791/0.8791
+  s0_L1_d3         d= 3 score[min/mean/max]=0.7738/0.7738/0.7738
+saved recon/v10_next_candidate.qasm  GO=YES

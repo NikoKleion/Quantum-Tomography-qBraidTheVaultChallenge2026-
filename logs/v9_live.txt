@@ -1,0 +1,7 @@
+[key found in qbraid_key.txt]
+V9: n=3 current=0.161 probes_left=0 attacks_left=15
+  oracle queries: 10  (max raw seen 0.429)
+  it0: resid=4.00e-09 predR=1.000 gotR=0.687 d=2 score=0.660 best=0.660 c=12.0 (attacks left 4)
+  it1: resid=3.90e-09 predR=1.000 gotR=0.751 d=2 score=0.721 best=0.721 c=12.0 (attacks left 3)
+  it2: resid=4.12e-09 predR=1.000 gotR=0.666 d=2 score=0.640 best=0.721 c=12.0 (attacks left 2)
+V9 DONE: 0.161 -> 0.721 (R=0.751, d=2, via cand_it1_d2) | probes left 0, attacks left 2

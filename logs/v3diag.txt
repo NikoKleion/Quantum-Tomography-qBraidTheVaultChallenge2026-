@@ -1,0 +1,3 @@
+n=12, 6 bases, 200 shots  (dim=4096; ~147 of 4096 bins observed per basis)
+  L2  : recovered fidelity = 0.7226   (loss 0.0276, 108s)
+  NLL : recovered fidelity = 0.9489   (loss 7487.5931, 90s)

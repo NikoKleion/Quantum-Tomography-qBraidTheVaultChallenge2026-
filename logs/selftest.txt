@@ -1,0 +1,83 @@
+== lc_reduce ==
+K_4: |E|=6 -> LC delta=3  P(0)=1.000000 PASS
+K_5: |E|=10 -> LC delta=4  P(0)=1.000000 PASS
+K_6: |E|=15 -> LC delta=5  P(0)=1.000000 PASS
+V6 graph: |E|=6 -> LC delta=5  P(0)=1.000000 PASS
+
+== svd_disentangle ==
+Exactness on bond 2 MPS (full keep should give fidelity 1.0):
+  n=4: full keep fidelity=1.0000  delta(CX)=7
+  n=5: full keep fidelity=1.0000  delta(CX)=9
+  n=6: full keep fidelity=1.0000  delta(CX)=11
+  n=7: full keep fidelity=1.0000  delta(CX)=13
+
+Compressible MPS (one strong bond) Pareto:
+  keep=[0, 1, 2, 3, 4] delta=11 fidelity=1.0000
+  keep=[0, 1, 2, 3] delta= 8 fidelity=0.9999
+  keep=[1, 2, 3] delta= 9 fidelity=0.9995
+  keep=[2, 3] delta= 6 fidelity=0.9989
+  keep=[2] delta= 3 fidelity=0.9984
+  keep=[] delta= 0 fidelity=0.8860
+
+== graph_solver ==
+Graph learning check (recovered edges vs. hidden truth):
+vault 5: n=4 truth=1 found=1 correct=1 missing=[] extra=[] minconf=0.98
+vault 6: n=5 truth=1 found=1 correct=1 missing=[] extra=[] minconf=0.99
+vault 7: n=6 truth=8 found=8 correct=8 missing=[] extra=[] minconf=0.97
+vault 8: n=8 truth=6 found=6 correct=6 missing=[] extra=[] minconf=0.99
+
+== state_tomography ==
+ansatz free raw tomography on random circuits (held out error):
+  n=4: resid=0.038 heldout_err=0.082 fidelity=0.992 good
+  n=5: resid=0.050 heldout_err=0.131 fidelity=0.979 good
+  n=6: resid=0.054 heldout_err=0.197 fidelity=0.956 good
+
+== fine_pareto ==
+compressible MPS n=4 c=6 fit_resid=0.040
+  d= 6 pred_overlap=1.000 R=0.991 score=0.793 <-
+  d= 5 pred_overlap=1.000 R=0.984 score=0.814 <-
+  d= 4 pred_overlap=0.998 R=0.991 score=0.849 <-
+  d= 3 pred_overlap=0.998 R=0.989 score=0.879 <-
+  d= 2 pred_overlap=0.997 R=0.993 score=0.917 <-
+  d= 1 pred_overlap=0.879 R=0.866 score=0.831
+  d= 0 pred_overlap=0.878 R=0.885 score=0.885
+  best 0.917   (full inverse ceiling ~0.80)
+
+compressible MPS n=5 c=8 fit_resid=0.047
+  d= 8 pred_overlap=1.000 R=0.976 score=0.781 <-
+  d= 7 pred_overlap=1.000 R=0.975 score=0.800 <-
+  d= 6 pred_overlap=1.000 R=0.981 score=0.826 <-
+  d= 5 pred_overlap=0.999 R=0.977 score=0.845 <-
+  d= 4 pred_overlap=0.994 R=0.981 score=0.872 <-
+  d= 3 pred_overlap=0.990 R=0.990 score=0.905 <-
+  d= 2 pred_overlap=0.982 R=0.993 score=0.935 <-
+  d= 1 pred_overlap=0.761 R=0.767 score=0.744
+  d= 0 pred_overlap=0.760 R=0.760 score=0.760
+  best 0.935   (full inverse ceiling ~0.80)
+
+== mps_large ==
+--- bond 2 MPS n=10, c=18 ---
+  mps_d0: R=0.560 d=0 score=0.560
+  mps_d4: R=0.736 d=4 score=0.697
+  mps_d8: R=0.847 d=8 score=0.762
+  mps_d9: R=0.889 d=9 score=0.791
+  best 0.791
+--- bond 2 MPS n=12, c=22 ---
+  mps_d0: R=0.558 d=0 score=0.558
+  mps_d4: R=0.707 d=4 score=0.676
+  mps_d8: R=0.857 d=8 score=0.785
+  mps_d11: R=0.872 d=11 score=0.775
+  best 0.785
+
+== hea_tomography ==
+HEA variational tomography vs. hidden vaults:
+  vault 9 n=3 c=8 probes=12 tomo_L0(d=0 R=0.97 s=0.97) tomo_L1(d=2 R=0.98 s=0.93) tomo_L2(d=4 R=0.99 s=0.88) -> best 0.972
+  vault 10 n=4 c=12 probes=12 tomo_L0(d=0 R=0.95 s=0.95) tomo_L1(d=3 R=0.94 s=0.88) tomo_L2(d=6 R=0.98 s=0.88) -> best 0.955
+  vault 11 n=5 c=16 probes=12 tomo_L0(d=0 R=0.88 s=0.88) tomo_L1(d=4 R=0.91 s=0.86) tomo_L2(d=8 R=0.92 s=0.82) -> best 0.877
+  vault 12 n=6 c=20 probes=12 tomo_L0(d=0 R=0.88 s=0.88) tomo_L1(d=5 R=0.86 s=0.81) tomo_L2(d=10 R=0.87 s=0.77) -> best 0.875
+
+== torch_mps ==
+torch autodiff staircase fit to bond 2 MPS (overlap with true state):
+  n=8 L=2: overlap=0.994  (24s)
+  n=10 L=2: overlap=0.965  (26s)
+  n=12 L=2: overlap=0.979  (54s)

@@ -1,0 +1,12 @@
+V12: n=5 c=72 | 14 exact rows + 2 probe bases; free params=62
+LOO row error: max=0.0203 mean=0.0072
+best loss=6.30e-04; ensemble=40 solutions, 36 distinct; pairwise fid range: 0.724-1.0  (101s)
+current: bestR=0.7943 score=0.7728
+top candidates (robust=min over ensemble):
+  s0_exact         d=26 score[min/mean/max]=0.9101/0.9139/0.9172
+  s1_exact         d=26 score[min/mean/max]=0.9085/0.9128/0.9172
+  s2_exact         d=26 score[min/mean/max]=0.9081/0.9135/0.9172
+  s3_exact         d=26 score[min/mean/max]=0.9035/0.9115/0.9172
+  s2_L2_d8         d= 8 score[min/mean/max]=0.8919/0.8951/0.8978
+  s3_L2_d8         d= 8 score[min/mean/max]=0.8906/0.8946/0.8980
+saved recon/v12_next_candidate.qasm  GO=YES

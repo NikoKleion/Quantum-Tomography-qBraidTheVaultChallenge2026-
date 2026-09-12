@@ -1,0 +1,9 @@
+qiskit>=2.0
+qiskit-aer>=0.15
+numpy>=1.26
+scipy>=1.11
+torch>=2.0
+
+# live client; vault_client.py itself comes from github.com/qBraid/vault-challenge
+qbraid>=0.12
+pyqasm>=1.0

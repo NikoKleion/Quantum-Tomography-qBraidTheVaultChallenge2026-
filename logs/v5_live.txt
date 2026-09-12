@@ -1,0 +1,12 @@
+[key found in qbraid_key.txt]
+V5: n=3 current=0.764 p_left=5 a_left=17
+  learned 2 edges, min_conf=0.96: [(0, 2), (1, 2)]
+  base raw: R=0.947 d=2 score=0.758 c=2.0000000000000004
+  roto q0 ry: theta*=-0.267 predR=0.9643 (attacks left 14)
+  roto q0 rz: theta*=+0.025 predR=0.9644 (attacks left 12)
+  roto q1 ry: theta*=-0.071 predR=0.9657 (attacks left 10)
+  roto q1 rz: theta*=-0.085 predR=0.9674 (attacks left 8)
+  roto q2 ry: theta*=+0.270 predR=0.9853 (attacks left 6)
+  roto q2 rz: theta*=-0.234 predR=0.9989 (attacks left 4)
+  FINAL: R=0.999 d=2 score=0.799
+V5 DONE: 0.764 -> 0.799 (R=0.999, d=2, graph_final) | a_left 3

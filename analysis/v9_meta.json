@@ -1,0 +1,9 @@
+{
+ "current": 0.7211,
+ "robust": 0.783,
+ "mean": 0.8219,
+ "max": 0.8956,
+ "delta": 2,
+ "note": "13 rows vs 14 params -> 14 distinct solutions (ambiguity real); robust=min over ensemble. Shot1 result makes it exactly determined -> refit for shot2.",
+ "go": true
+}

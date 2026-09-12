@@ -1,0 +1,12 @@
+6 bases + 6 exact rows
+restart 0: 8139.5
+restart 1: 8135.2
+restart 2: 8483.7
+restart 3: 8193.3
+restart 4: 8398.0
+row consistency after refit:
+Traceback (most recent call last):
+  File "analysis/v3_refit_with_rows.py", line 72, in <module>
+    pr = abs(np.vdot(rv.conj().numpy(), psi)) ** 2
+                     ^^^^^^^^^^^^^^^^^
+RuntimeError: Can't call numpy() on Tensor that has conjugate bit set. Use tensor.resolve_conj().numpy() instead.

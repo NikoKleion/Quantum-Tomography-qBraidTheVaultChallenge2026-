@@ -1,0 +1,41 @@
+{
+ "note": "refit(+d20 row) fast candidates: exact inverse + greedy drops",
+ "candidates": [
+  {
+   "file": "v3_fast_0_d22.qasm",
+   "delta": 22,
+   "predR": 0.9999999999999996,
+   "predScore": 0.8571428571428568
+  },
+  {
+   "file": "v3_fast_1_d21.qasm",
+   "delta": 21,
+   "predR": 0.9899939589428841,
+   "predScore": 0.8541124351664098
+  },
+  {
+   "file": "v3_fast_2_d20.qasm",
+   "delta": 20,
+   "predR": 0.9736020728060125,
+   "predScore": 0.8454965369104845
+  },
+  {
+   "file": "v3_fast_3_d19.qasm",
+   "delta": 19,
+   "predR": 0.9167163241309213,
+   "predScore": 0.8013679124853087
+  },
+  {
+   "file": "v3_fast_4_d18.qasm",
+   "delta": 18,
+   "predR": 0.8589392198922774,
+   "predScore": 0.7558665135052042
+  },
+  {
+   "file": "v3_fast_5_d17.qasm",
+   "delta": 17,
+   "predR": 0.7219462126966256,
+   "predScore": 0.6395765105768764
+  }
+ ]
+}

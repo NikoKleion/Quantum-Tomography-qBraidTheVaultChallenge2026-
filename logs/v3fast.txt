@@ -1,0 +1,10 @@
+  keep=22 d=22 predR=1.000 predScore=0.857
+  keep=21 d=21 predR=0.990 predScore=0.854
+  keep=20 d=20 predR=0.974 predScore=0.845
+  keep=19 d=19 predR=0.917 predScore=0.801
+  keep=18 d=18 predR=0.859 predScore=0.756
+  keep=17 d=17 predR=0.722 predScore=0.640
+  keep=16 d=16 predR=0.553 predScore=0.493
+  keep=15 d=15 predR=0.508 predScore=0.456
+  keep=14 d=14 predR=0.375 predScore=0.339
+TOP: [(22, 0.857), (21, 0.854), (20, 0.845), (19, 0.801), (18, 0.756), (17, 0.64)]

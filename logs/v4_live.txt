@@ -1,0 +1,12 @@
+[key found in qbraid_key.txt]
+V4: n=12 current=0.046 p_left=3 a_left=16
+  Bloch warm start; mean|r|=0.317
+  start R=0.0051 (delta=0 -> score=R)
+  q11 rz: R -> 0.0052 (a_left 11)
+  q0 ry: R -> 0.0062 (a_left 9)
+  q0 rz: R -> 0.0071 (a_left 7)
+  q1 ry: R -> 0.0078 (a_left 5)
+  q1 rz: R -> 0.0082 (a_left 3)
+  q8 ry: R -> 0.0110 (a_left 1)
+  FINAL: R=0.0110 score=0.0110
+V4 DONE: 0.046 -> best_this_run 0.011 (6 angles improved) | a_left 0

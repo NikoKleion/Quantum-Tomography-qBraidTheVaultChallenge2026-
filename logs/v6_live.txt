@@ -1,0 +1,14 @@
+[key found in qbraid_key.txt]
+V6: n=6 current=0.688 p_left=8 a_left=18
+  learned 6 edges, min_conf=0.91: [(0, 4), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)]
+  LC reduces 6 edges -> 5 CZ
+  base lc: R=0.016 d=5 score=0.013 c=6.0
+  base raw: R=0.860 d=6 score=0.688 c=6.000000000000003
+  roto q0 ry: theta*=-0.056 predR=0.8611 (attacks left 14)
+  roto q1 ry: theta*=-0.280 predR=0.8782 (attacks left 10)
+  roto q1 rz: theta*=+0.120 predR=0.8814 (attacks left 8)
+  roto q2 ry: theta*=+0.252 predR=0.8955 (attacks left 6)
+  roto q2 rz: theta*=-0.301 predR=0.9161 (attacks left 4)
+  roto q3 ry: theta*=+0.121 predR=0.9195 (attacks left 2)
+  FINAL: R=0.919 d=6 score=0.736
+V6 DONE: 0.688 -> 0.736 (R=0.919, d=6, graph_final) | a_left 1

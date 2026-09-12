@@ -1,0 +1,8 @@
+[key found in qbraid_key.txt]
+vault0: attacks left 48
+[1] GHZ inverse: raw=1.0000 cf=0.800 score=0.800  -> PASS
+    c backed out from cf: 2.00 (GHZ truth = 2)
+[2] oracle recovery: fid|<GHZ|psi_hat>|^2 = 1.0000 resid=1.88e-09 -> PASS
+[2b] verification: predicted R=1.000 actual R=1.000 (d=2) -> PASS
+[3] rotosolve: start R=0.039 -> refined R=1.000 (theta*=4.712, ideal pi/2=1.571) -> PASS
+attacks used this rehearsal: 23, left 25

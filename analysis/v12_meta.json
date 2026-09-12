@@ -1,0 +1,9 @@
+{
+ "current": 0.7409,
+ "robust": 0.8234,
+ "mean": 0.8728,
+ "max": 0.8911,
+ "delta": 8,
+ "note": "36 distinct solutions but candidate robust across all; c=72 so cf barely penalizes.",
+ "go": true
+}

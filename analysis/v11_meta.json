@@ -1,0 +1,9 @@
+{
+ "current": 0.7175,
+ "robust": 0.866,
+ "mean": 0.866,
+ "max": 0.866,
+ "delta": 6,
+ "note": "UNIQUE solution (40/40 identical), LOO err mean 0.005; d=6 candidate ties exact inverse.",
+ "go": true
+}

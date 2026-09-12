@@ -1,0 +1,26 @@
+row consistency after refit (fit vs actual):
+building CX-drop Pareto (n=12, this is the slow part)...
+   d=22 predR=1.000 predScore=0.857
+   d=21 predR=0.995 predScore=0.858
+   d=20 predR=0.990 predScore=0.860
+   d=19 predR=0.983 predScore=0.860
+   d=18 predR=0.941 predScore=0.828
+   d=17 predR=0.920 predScore=0.815
+   d=16 predR=0.852 predScore=0.760
+   d=15 predR=0.848 predScore=0.762
+   d=14 predR=0.817 predScore=0.739
+   d=13 predR=0.815 predScore=0.742
+   d=12 predR=0.722 predScore=0.662
+   d=11 predR=0.622 predScore=0.574
+   d=10 predR=0.506 predScore=0.470
+   d= 9 predR=0.492 predScore=0.460
+   d= 8 predR=0.389 predScore=0.367
+   d= 7 predR=0.385 predScore=0.366
+   d= 6 predR=0.308 predScore=0.295
+cand 0: d=20 predR=0.990 predScore=0.860
+cand 1: d=19 predR=0.983 predScore=0.860
+cand 2: d=21 predR=0.995 predScore=0.858
+cand 3: d=22 predR=1.000 predScore=0.857
+cand 4: d=18 predR=0.941 predScore=0.828
+cand 5: d=17 predR=0.920 predScore=0.815
+wrote analysis/v3_predictions.json

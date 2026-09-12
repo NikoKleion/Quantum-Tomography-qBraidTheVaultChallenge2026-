@@ -1,0 +1,9 @@
+{
+ "current": 0.7331,
+ "robust": 0.9317,
+ "mean": 0.932,
+ "max": 0.9323,
+ "delta": 4,
+ "note": "solution space collapsed to a single state (110 restarts); near-certain.",
+ "go": true
+}
